@@ -1,0 +1,108 @@
+<!-- question no 16 -->
+<!-- Write HTML & CSS code to create user registration form for lok sewa aayog. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div>
+        <select>
+          <option>EN</option>
+          <option>नेपा</option>
+        </select>
+      </div>
+      <div class="logo-container">
+        <img
+          src="https://psconline1.psc.gov.np/static/media/logo.10d25425.png"
+          alt="logo"
+        />
+        <span>Public Servie Commission</span>
+      </div>
+      <p class="register">Register</p>
+      <div class="personal-info">
+        <div class="top-div">
+          <div class="first-name">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" />
+          </div>
+          <div class="middle-name">
+            <label for="middle-name">Middle Name</label>
+            <input type="text" id="middle-name" />
+          </div>
+          <div class="last-name">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" />
+          </div>
+          <div class="user-name">
+            <label for="user-name">Username</label>
+            <input type="text" id="user-name" />
+          </div>
+          <div class="date-of-birth-BS">
+            <label for="date-of-birth-BS">Date Of Birth(B.S.)</label>
+            <input type="date" id="date-of-birth-BS" />
+          </div>
+          <div class="date-of-birth-AD">
+            <label for="date-of-birth-Ad">Date Of Birth(A.D.)</label>
+            <input type="text" id="date-of-birth-AD" disabled />
+          </div>
+        </div>
+        <div class="middle-div">
+          <div class="Gender">
+            <label>Gender</label><br />
+            <input type="radio" id="male" />
+            <label for="male" class="male">Male</label>
+            <input type="radio" id="female" />
+            <label for="female" class="female">Female</label>
+            <input type="radio" id="other" />
+            <label for="other" class="other">Others</label>
+          </div>
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" />
+          </div>
+        </div>
+        <div class="bottom-div">
+          <div class="mobile-number">
+            <label for="number">Mobile Number</label>
+            <input type="number" id="number" />
+          </div>
+          <div class="national-id">
+            <label for="national-id">National ID</label>
+            <input type="number" id="national-id" />
+          </div>
+          <div class="citizenship-number">
+            <label for="citizenship-number">Citizenship Number</label>
+            <input type="number" id="citizenship-number" />
+          </div>
+          <div class="citizenship-issue-district">
+            <label for="citizenship-issue-district"
+              >Citizenship Issue District
+            </label>
+            <input type="text" id="citizenship-issue-district" />
+          </div>
+          <div class="citizenship-issue-date-BS">
+            <label for="citizenship-issue-date-BS"
+              >Citizenship Issue Date(B.S.)</label
+            >
+            <input type="date" id="citizenship-issue-date-BS" />
+          </div>
+          <div class="citizenship-issue-date-AD">
+            <label for="citizenship-issue-date-AD"
+              >Citizenship Issue Date(A.D.)</label
+            >
+            <input type="text" id="citizenship-issue-date-AD" disabled />
+          </div>
+        </div>
+      </div>
+      <div class="button-container">
+        <button>Back to Login</button>
+        <button>Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

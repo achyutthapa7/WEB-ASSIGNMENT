@@ -1,0 +1,146 @@
+<!-- question no 18 -->
+<!-- Write HTML & CSS code to create following invoice
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section class="section1">
+      <div class="top">
+        <div class="left">
+          <img src="https://picsum.photos/70/70" alt="logo" />
+          <div class="info">
+            <p>company name</p>
+            <p>address</p>
+            <p>contact details</p>
+          </div>
+        </div>
+        <div class="right">
+          <p>Invoice</p>
+          <div class="date">
+            <u>Date</u>
+          </div>
+          <div class="invoiceno">
+            <u>Invoice No.</u>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div>
+        <p>Payement terms(due on receipt, due in X days)</p>
+        <br />
+        <div class="list-container">
+          <ul>
+            <span>Bill To</span>
+            <li>contact name</li>
+            <li>client company name</li>
+            <li>address</li>
+            <li>phone</li>
+            <li>email</li>
+          </ul>
+
+          <ul>
+            <span>Ship To</span>
+            <li>name/dept</li>
+            <li>client company name</li>
+            <li>address</li>
+            <li>phone</li>
+          </ul>
+        </div>
+        <div class="table">
+          <table>
+            <tr id="first-row">
+              <td>DESCRIPTION</td>
+              <td>QTY</td>
+              <td>UNIT PRICE</td>
+              <td>TOTAL</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>0.00</td>
+            </tr>
+          </table>
+        </div>
+        <div class="total">
+          <div><p>Remarks/Payment Instructions</p></div>
+          <div class="input">
+            <div><span>SUBTOTAL</span><input value="0.00" /></div>
+            <div><span>DISCOUNT</span><input value="0.00" /></div>
+            <div><span>SUBTOTAL LESS DISCOUNT</span><input value="0.00" /></div>
+            <div><span>TAX RATE</span><input value="0.00%" /></div>
+            <div><span>TOTAL TAX</span><input value="0.00" /></div>
+            <div><span>SHIPPING/HANDELING</span><input value="0.00" /></div>
+            <div id="balance">
+              <span>Balance Due </span><input value="1000$" />
+            </div>
+          </div>
+        </div>
+        <footer></footer>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!-- question no 7 -->
+<!-- Write HTML code demonstrate Image map with rectangle,circle and polygon shape. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Map</title>
+  </head>
+  <body>
+    <h2>Image Map Example</h2>
+
+    <img
+      src="https://picsum.photos/200/300"
+      alt="Example Image"
+      usemap="#exampleMap"
+      width="500"
+      height="400"
+    />
+
+    <map name="exampleMap">
+      <!-- Rectangle Shape -->
+      <area
+        shape="rect"
+        coords="50,50,200,200"
+        href="https://www.example.com/rectangle"
+        alt="Rectangle"
+      />
+
+      <!-- Circle Shape -->
+      <area
+        shape="circle"
+        coords="300,200,50"
+        href="https://www.example.com/circle"
+        alt="Circle"
+      />
+
+      <!-- Polygon Shape -->
+      <area
+        shape="poly"
+        coords="400,50,450,100,400,150,350,100"
+        href="https://www.example.com/polygon"
+        alt="Polygon"
+      />
+    </map>
+  </body>
+</html>

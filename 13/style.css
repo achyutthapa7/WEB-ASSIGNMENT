@@ -1,0 +1,29 @@
+nav {
+  background-color: #28d14c;
+  overflow: hidden;
+  padding: 10px 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  float: left;
+  border-right: 1px solid black;
+}
+li:first-child {
+  background-color: blue;
+}
+a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+#white {
+  color: white;
+}

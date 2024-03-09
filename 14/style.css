@@ -1,0 +1,78 @@
+h1 {
+  color: rgb(128, 118, 118);
+}
+.fieldset {
+  max-width: 700px;
+  height: auto;
+  padding: 50px;
+}
+legend {
+  text-align: center;
+}
+form {
+  width: 93%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form div {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  padding: 10px 0;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+input {
+  height: 30px;
+  border: 1px solid green;
+  border-radius: 3px;
+  width: 80%;
+}
+label {
+  width: 100px;
+  display: inline-block;
+}
+select {
+  width: 81%;
+  height: 30px;
+  border: 1px solid green;
+}
+textarea {
+  width: 550px;
+  max-width: 550px;
+  max-height: 200px;
+  border: 1px solid green;
+}
+.image-container input {
+  border: none;
+}
+.termandconditions-container input {
+  width: auto;
+}
+.button-container input {
+  width: auto;
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  border-radius: 0;
+  height: 40px;
+  width: 70px;
+  margin-right: 3px;
+}
+.button-container input:first-child {
+  background-color: blue;
+  color: white;
+}
+.button-container input:last-child {
+  background-color: red;
+  color: white;
+}
+.gender-container input {
+  width: auto;
+}
+span {
+  font-size: 24px;
+}

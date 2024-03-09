@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+.header {
+  background-color: rgba(158, 35, 158, 0.808);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  background-color: gray;
+  padding: 20px;
+}
+.container {
+  display: flex;
+}
+.left {
+  flex: 1;
+  background-color: rgb(194, 72, 72);
+  padding: 20px;
+}
+.content {
+  flex: 2;
+  background-color: rgb(192, 127, 192);
+  padding: 20px;
+  height: 451px;
+}
+.right {
+  flex: 1;
+  background-color: rgb(178, 178, 209);
+  padding: 20px;
+}
+footer {
+  background-color: rgb(190, 146, 146);
+  padding: 20px;
+}
